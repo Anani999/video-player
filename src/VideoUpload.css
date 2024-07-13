@@ -1,0 +1,192 @@
+/* VideoUpload.css */
+.upload-form {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .upload-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .upload-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .upload-form input[type="text"],
+  .upload-form textarea,
+  .upload-form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .thumbnail-preview {
+    margin-top: 10px;
+  }
+  
+  .thumbnail-preview img {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-form button:hover {
+    background-color: #218838;
+  }
+  
+  .success-message {
+    margin-top: 10px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+/* Element | http://localhost:3000/ */
+
+.upload-button > button:nth-child(1) {
+    background: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .upload-button:hover{
+    box-shadow: 0 0 10px rgb(0, 255, 204);
+  }
+  
+  /* Inline #7 | http://localhost:3000/ */
+  
+
+/* Inline #3 | http://localhost:3000/ */
+
+.upload-form {
+    /* top: 0; */
+    top: 30%;
+    max-width: 80%;
+    margin: 0 auto;
+    left: 8%;
+  }
+  
+  /* Element | http://localhost:3000/ */
+  
+  .upload-button {
+    width: 200px;
+  }
+  
+  /* Element | http://localhost:3000/ */
+  
+/* Element | http://localhost:3000/ */
+
+.upload-form {
+    color: black;
+  }
+  
+  /* Element | http://localhost:3000/ */
+  
+  .cancel {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #2da800;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .cancel:hover{
+    background-color: rgb(0, 255, 0);
+  }
+
+
+/* Inline #3 | http://localhost:3000/ */
+
+.upload-form {
+    /* max-width: 80%; */
+    /* left: 8%; */
+    max-width: 36%;
+    left: 32%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+  }
+  
+
+/* Inline #3 | http://localhost:3000/ */
+
+.upload-form {
+    /* color: black; */
+    color: white;
+    background: black;
+  }
+  
+  .upload-form button:hover {
+    /* background-color: #218838; */
+    background-color: #fff;
+    color: black;
+  }
+  
+  .upload-form button {
+    background: black;
+    border: 2px solid;
+  }
+  
+  .cancel {
+    /* background: #2da800; */
+    background: #000;
+    border: 2px solid;
+  }
+  
+  .cancel:hover {
+    /* background-color: rgb(0, 255, 0); */
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+
+  @media screen and (max-width:600px) {
+    
+/* Inline #3 | http://localhost:3000/ */
+
+.upload-form {
+    /* max-width: 36%; */
+    /* left: 32%; */
+    max-width: 81%;
+    left: 4%;
+  }
+  
+  }
